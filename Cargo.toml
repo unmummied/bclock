@@ -1,0 +1,15 @@
+[package]
+name = "bclock"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.42"
+eframe = "0.33.2"
+
+[lints.rust]
+dead_code = "allow"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
+unwrap_used = "allow"
